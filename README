@@ -1,1 +1,23 @@
 Code for the http://blog.zilverline.com/2011/04/07/serializing-strings-unicode-and-randomized-testing-using-scalacheck/ blog post.
+
+Use sbt 0.10.x to run the examples:
+
+$ sbt
+> run
+
+Multiple main classes detected, select one to run:
+
+ [1] Try4
+ [2] Try1
+ [3] Solution2
+ [4] Try3
+ [5] Solution1
+ [6] Try2
+
+Enter number: 4
+
+[info] Running Try3 
+! Falsified after 12 passed tests.
+> ARG_0: ?
+[success] Total time: 4 s, completed Sep 1, 2011 6:57:15 PM
+> 
